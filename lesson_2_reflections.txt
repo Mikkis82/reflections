@@ -21,3 +21,7 @@ It makes it clear what commits that are or are not reachable from certain places
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 The new branch now include information from all branches merged, all commits (if they are not on branches emanating from any of the merged branches) are reachable from the new branch head. The diagram shows these relationships.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+When there exists automatic merging it makes sense to use it as much as you can, to save your self work when the changes between commits isn't as complicated. But there is also good that you have the chance to do them more or less manually, especially when there are conflicts that may or may not be interpreted and solved correctly by git.
