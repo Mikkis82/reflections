@@ -13,3 +13,7 @@ Forks are used when cloning files or repositorys on GitHub, between users for ex
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 So that git (and you) know the relationship between the state of the remote repository and the state of the local one. Are they in-sync, are there changes, commits, made in the remote that hasn't been made locally, or vice versa. This is important so that git knows potential differences between versions, what can and can't be done, if there are conflicts that needs to be resolved before merging for example. It can also be good to have a copy of the latest remote state if you need to work off-line.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+I would do it in person, or via phone or skype or something similar. This would maybe make it easier to discuss changes directly, but of course requires that all collaborators can work at the same exakt time. And it might be more difficult to keep track of what changes are made, by whom and so on. And the more collaborators there are, the harder it would be. So I think using Git and Github makes it easier in many ways. If the ones you need to collaborate with also knows how to use these tools of course.
