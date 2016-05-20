@@ -17,3 +17,7 @@ So that git (and you) know the relationship between the state of the remote repo
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 I would do it in person, or via phone or skype or something similar. This would maybe make it easier to discuss changes directly, but of course requires that all collaborators can work at the same exakt time. And it might be more difficult to keep track of what changes are made, by whom and so on. And the more collaborators there are, the harder it would be. So I think using Git and Github makes it easier in many ways. If the ones you need to collaborate with also knows how to use these tools of course.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Maybe when I wan't to try a new experimental feature or something like that, and be able to work on that in severel commits to see how it pans out, without being forced to incorporate the changes into the master branch just yet. Or when collaborating with others it makes sense to have different branches that can be worked on simultaneously, branches that you later on can merge in to the master branch. The benefit with only working on the master branch is that it is easier to keep it up to date with GitHub. Only working on the master branch though makes it complicated during collaborations due to the many conflicts that occur when different changes simultaneously are made on the same commits.
